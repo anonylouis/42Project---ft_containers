@@ -15,17 +15,16 @@ In the main/ directory you can find some tests to check how it works.
 ---
 Some commands you can use with the Makefile :
 
->make + *Container Name*
+- ```> make + ContainerName``` :
+Compile the main associated with the *ContainerName* in two ways : with the original class and with my implementation. The results should be similar !
 
-Compile the main associated with the *Container Name* in two ways : with the original class and with my implementation. The results should be similar !
 
->make
+- ```> make``` :
+equivalent to *make vector && make stack && make map*
 
-equivalent to `make vector && make stack && make map`
 
->make bonus
-
-equivalent to `make && make set`
+- ```> make bonus``` :
+equivalent to *make && make set*
 
 
 [^1]: Map and Set store data in a Red-Black tree.

@@ -23,6 +23,10 @@ Compile the main associated with the *Container Name* in two ways : with the ori
 
 equivalent to `make vector && make stack && make map`
 
+>make bonus
+
+equivalent to `make && make set`
+
 
 [^1]: Map and Set store data in a Red-Black tree.
 [^2]: You can find them on [cppreference](https://en.cppreference.com/w/cpp/container) or [cplusplus.com](https://cplusplus.com/reference/stl/)

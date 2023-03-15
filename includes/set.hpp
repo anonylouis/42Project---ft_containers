@@ -126,7 +126,7 @@ namespace ft
 			typedef	RBT_node_set<value_type, Compare, Alloc> node;
 			typedef typename allocator_type::template rebind<node>::other allocator_node;
 
-			typedef set_iterator<value_type, node> iterator;
+			typedef set_iterator<const value_type, node> iterator;
 			typedef set_iterator<const value_type, node> const_iterator;
 			typedef ft::reverse_iterator<iterator > reverse_iterator;
 			typedef ft::reverse_iterator<const_iterator > const_reverse_iterator;
